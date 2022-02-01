@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T08:22:21.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="0Fj78D59-uYxh14W-zCY" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T08:29:34.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="b9bVA_uc9Ft17Q_sXQlp" version="16.4.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="1671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -625,6 +625,26 @@
             <mxPoint x="2234.6" y="1490.001" as="sourcePoint" />
             <mxPoint x="2120" y="1491" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-218" value="submitResultSelectJudgement" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1600" y="1640" width="360" height="150" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-219" value="CampaignTokenのaddr" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-218">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-220" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-218">
+          <mxGeometry y="52" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-221" value="conditionalRankingに勝者のaddrを記載(_ranking配列)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-218">
+          <mxGeometry y="72" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-222" value="JudgementListにステークホルダーからランダムで21人選出" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-218">
+          <mxGeometry y="98" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-223" value="deadlineForJudgeByBlockNumを更新" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-218">
+          <mxGeometry y="124" width="360" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
