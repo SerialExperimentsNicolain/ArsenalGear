@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T07:22:24.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="WTB9hibBU0OruvmkVifK" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T07:39:21.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="YHWaPIzEgCyo87ekro3r" version="16.4.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="1671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="CampaignToken" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1400" y="110" width="260" height="160" as="geometry">
+          <mxGeometry x="1840" y="110" width="260" height="170" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -239,7 +239,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-98" value="EachOfCampgain" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1400" y="440" width="520" height="940" as="geometry">
+          <mxGeometry x="1590" y="642" width="520" height="940" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -361,7 +361,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-138" value="ParticipateCampaign" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2000" y="110" width="300" height="190" as="geometry">
+          <mxGeometry x="1480" y="360" width="300" height="190" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -386,23 +386,23 @@
         <mxCell id="sXOqod5YsUQpEIznUET0-147" value="生成" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=53;endSize=12.62;width=21;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1280" y="320" as="sourcePoint" />
-            <mxPoint x="1380" y="420" as="targetPoint" />
+            <mxPoint x="1560" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-148" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.002;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sXOqod5YsUQpEIznUET0-145" target="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="sXOqod5YsUQpEIznUET0-148" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sXOqod5YsUQpEIznUET0-138" target="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1950" y="350" as="sourcePoint" />
-            <mxPoint x="2000" y="300" as="targetPoint" />
+            <mxPoint x="1630" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-149" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.001;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sXOqod5YsUQpEIznUET0-138" target="sXOqod5YsUQpEIznUET0-98">
+        <mxCell id="sXOqod5YsUQpEIznUET0-149" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.454;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sXOqod5YsUQpEIznUET0-138" target="sXOqod5YsUQpEIznUET0-98">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2160" y="280" as="sourcePoint" />
-            <mxPoint x="2000" y="300" as="targetPoint" />
+            <mxPoint x="1660" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-150" value="addFund" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2000" y="440" width="300" height="202" as="geometry">
+        <mxCell id="sXOqod5YsUQpEIznUET0-150" value="AddFund" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1840" y="360" width="300" height="202" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -425,6 +425,44 @@
           <mxGeometry y="150" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-158" value="現在の出資総額に数値追加(大会のaddr)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-150">
+          <mxGeometry y="176" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-159" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sXOqod5YsUQpEIznUET0-150" target="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="380" as="sourcePoint" />
+            <mxPoint x="1670" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-160" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.477;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sXOqod5YsUQpEIznUET0-158" target="sXOqod5YsUQpEIznUET0-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2160" y="290" as="sourcePoint" />
+            <mxPoint x="1800" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-161" value="WithdrawForParticipants" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2240" y="360" width="300" height="202" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-162" value="CampaignTokenのaddr" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-161">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-163" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-161">
+          <mxGeometry y="52" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-164" value="トークン返却(大会のaddr)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-161">
+          <mxGeometry y="72" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-165" value="参加者ごとのトークン支払額を0へ(大会のaddr)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-161">
+          <mxGeometry y="98" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-166" value="現在の出資者数に1追加(大会のaddr)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-161">
+          <mxGeometry y="124" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-167" value="出資者ごとの出資額を記載(大会のaddr)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-161">
+          <mxGeometry y="150" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-168" value="現在の出資総額に数値追加(大会のaddr)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-161">
           <mxGeometry y="176" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
