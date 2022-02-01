@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T05:21:07.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="43owwngGTATOaFRrHJNy" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T05:29:45.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Y5FGw_wf0aBhjc-E36JS" version="16.4.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1306" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -77,119 +77,117 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-17" value="CampaignStruct" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="440" width="520" height="650" as="geometry">
+          <mxGeometry x="480" y="440" width="520" height="940" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-18" value="minNumParticipant //必要参加者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-56" value="struct Campaign {}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-21" value="maxNumParticipant //最大参加者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-18" value="minNumParticipant //必要参加者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="52" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-22" value="fundFloor //必要出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-21" value="maxNumParticipant //最大参加者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="78" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-23" value="deadlineForAcceptanceByTimestamp //大会受付期限をタイムスタンプで示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-22" value="fundFloor //必要出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="104" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-24" value="deadlineForAcceptanceByBlockNum; //大会受付期限をブロック数で示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-23" value="deadlineForAcceptanceByTimestamp //大会受付期限をタイムスタンプで示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="130" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-25" value="deadlineForHeldByTimestamp; //大会開催期限をタイムスタンプで示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-24" value="deadlineForAcceptanceByBlockNum; //大会受付期限をブロック数で示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="156" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-26" value="deadlineForHeldByBlockNum; //大会開催期限をブロック数で示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-25" value="deadlineForHeldByTimestamp; //大会開催期限をタイムスタンプで示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="182" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-27" value="deadlineForJudgeByBlockNum; //審判の投票期限をブロック数で現したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-26" value="deadlineForHeldByBlockNum; //大会開催期限をブロック数で示したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="208" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-28" value="operationFee; //開催者への手数料の%" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-27" value="deadlineForJudgeByBlockNum; //審判の投票期限をブロック数で現したもの" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="234" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-29" value="address organizer; //開催者" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-28" value="operationFee; //開催者への手数料の%" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="260" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-30" value="address[] participants; //参加者の配列" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-29" value="address organizer; //開催者" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="286" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-31" value="address[] backers; //出資者の配列" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-30" value="address[] participants; //参加者の配列" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="312" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-32" value="address[] judgementList; //審判のリスト、かつ判定終了後は承認した人リストとして機能する" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-31" value="address[] backers; //出資者の配列" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="338" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-33" value="address[] objectionList; //conditionalRankingに異議を唱えた審判員のリスト" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-32" value="address[] judgementList; //審判のリスト、かつ判定終了後は承認した人リストとして機能する" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="364" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-34" value="uint currentNumParticipant; //現在集まっている参加者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-33" value="address[] objectionList; //conditionalRankingに異議を唱えた審判員のリスト" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="390" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-35" value="uint currentFund; //現在集まっている出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-34" value="uint currentNumParticipant; //現在集まっている参加者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="416" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-36" value="mapping(address =&gt; uint) eachOfFund; //出資者ごとの出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-35" value="uint currentFund; //現在集まっている出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="442" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-37" value="mapping(address =&gt; uint) eachOfParticipateCampaignFee; //参加者ごとの出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-36" value="mapping(address =&gt; uint) eachOfFund; //出資者ごとの出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="468" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-38" value="uint[] prizeDistribution; // 賞金の振り分けの%" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-37" value="mapping(address =&gt; uint) eachOfParticipateCampaignFee; //参加者ごとの出資額" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="494" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-39" value="address[] conditionalRanking; //開催者が提示した仮ランキング" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-38" value="uint[] prizeDistribution; // 賞金の振り分けの%" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="520" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-40" value="address[] judgeRewardReceiptList; //審判報酬を受け取った人のリスト" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-39" value="address[] conditionalRanking; //開催者が提示した仮ランキング" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="546" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-41" value="uint slashedFlag; //審判のスラッシュ処理を行なったかどうかの判定" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-40" value="address[] judgeRewardReceiptList; //審判報酬を受け取った人のリスト" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="572" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-42" value="uint currentbackers; //現在集まってる出資者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-41" value="uint slashedFlag; //審判のスラッシュ処理を行なったかどうかの判定" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="598" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+        <mxCell id="sXOqod5YsUQpEIznUET0-42" value="uint currentbackers; //現在集まってる出資者数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
           <mxGeometry y="624" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-57" value="CampaignConfiguration" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="650" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-58" value="averageBlocktime = 1316; // ブロックができる秒数 (13.16 ✖️ 100)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="676" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-59" value="requestCampaignFee = 100; //大会開催費" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="702" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-60" value="participateCampaignFee = 100; //大会参加費" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="728" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-61" value="rewardForBackers = 100; //出資者報酬" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="754" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-62" value="rewardForJudgement = 100; //審判への報酬" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="780" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-63" value="protocolFee = 100; // 10% プロトコルへの手数料の割合" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="806" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-64" value="numOfJudgement = 21; //審判の人数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="832" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-65" value="periodForHeld = 86400 * 30; //開催期限までの期間（30日を秒変換）" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="858" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-66" value="periodForJudge = 86400 * 3; //投票を行う期間である３日間" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="884" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sXOqod5YsUQpEIznUET0-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-17">
+          <mxGeometry y="910" width="520" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--17" target="zkfFHV4jXpPFQw0GAbJ--17">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-44" value="CampaignConfiguration" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1080" y="440" width="380" height="692" as="geometry">
-            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-45" value="averageBlocktime = 1316; // ブロックができる秒数 (13.16 ✖️ 100)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="26" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-48" value="requestCampaignFee = 100; //大会開催費" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="52" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-49" value="participateCampaignFee = 100; //大会参加費" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="78" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-50" value="rewardForBackers = 100; //出資者報酬" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="104" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-51" value="rewardForJudgement = 100; //審判への報酬" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="130" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-53" value="protocolFee = 100; // 10% プロトコルへの手数料の割合" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="156" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-52" value="numOfJudgement = 21; //審判の人数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="182" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-54" value="periodForHeld = 86400 * 30; //開催期限までの期間（30日を秒変換）" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="208" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-55" value="periodForJudge = 86400 * 3; //投票を行う期間である３日間" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="234" width="380" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-46" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-44">
-          <mxGeometry y="260" width="380" height="432" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
