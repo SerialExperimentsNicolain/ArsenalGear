@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T07:02:30.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="FfIIoVnBvVOFPkZJ5_rY" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T07:02:45.656Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="eKQkOGdNKEHcSyWHvCpQ" version="16.4.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="1671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -383,7 +383,7 @@
         <mxCell id="sXOqod5YsUQpEIznUET0-142" value="現在の参加者数に1追加" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-138">
           <mxGeometry y="124" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-147" value="生成" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=64;endSize=20.28;width=22;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="sXOqod5YsUQpEIznUET0-147" value="生成" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=34;endSize=14.74;width=21;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1280" y="320" as="sourcePoint" />
             <mxPoint x="1380" y="420" as="targetPoint" />
