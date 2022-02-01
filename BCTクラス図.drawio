@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T06:28:19.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="cZh3VW9B7AR9bBzx9czC" version="16.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T06:30:13.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="4rwR3JQyXHCFLoJBF5H6" version="16.4.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1666" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -201,27 +201,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-76" value="requestCampaign" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="40" width="460" height="216" as="geometry">
+          <mxGeometry x="360" y="40" width="480" height="216" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-77" value="create2のaddr" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-76">
-          <mxGeometry y="26" width="460" height="26" as="geometry" />
+          <mxGeometry y="26" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-84" value="CampaignTokenのaddr" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-76">
-          <mxGeometry y="52" width="460" height="26" as="geometry" />
+          <mxGeometry y="52" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-78" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-76">
-          <mxGeometry y="78" width="460" height="8" as="geometry" />
+          <mxGeometry y="78" width="480" height="8" as="geometry" />
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-79" value="_org = msg.sender;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-76">
-          <mxGeometry y="86" width="460" height="26" as="geometry" />
+          <mxGeometry y="86" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-87" value="create2の起動(_org:addr型, _fundFloor:uint型, _minNumParticipant:uint型,&#xa;_maxNumParticipant:uint型, _deadlineForAcceptanceByTimestamp:uint型&#xa;_deadlineForAcceptanceByBlockNum:uint型, deadlineForHeldByTimestamp:uint型&#xa;_deadlineForHeldByTimestamp:uint型)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-76">
-          <mxGeometry y="112" width="460" height="68" as="geometry" />
+          <mxGeometry y="112" width="480" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="sXOqod5YsUQpEIznUET0-86" value="requestCampaignFeeを回収(msg.sender,address(未定),requestCampaignFee" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-76">
-          <mxGeometry y="180" width="460" height="26" as="geometry" />
+        <mxCell id="sXOqod5YsUQpEIznUET0-86" value="requestCampaignFeeを回収(msg.sender,CampaignTokenのaddr,requestCampaignFee" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sXOqod5YsUQpEIznUET0-76">
+          <mxGeometry y="180" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sXOqod5YsUQpEIznUET0-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--18" target="sXOqod5YsUQpEIznUET0-77">
           <mxGeometry relative="1" as="geometry" />
